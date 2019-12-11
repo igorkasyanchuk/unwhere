@@ -13,6 +13,12 @@ User.where(first_name: 'John').order(:id).unwhere
 
 User.where(first_name: 'John').order(:id).unwhere.where(first_name: 'Bob') 
 #  => User.order(:id).where(first_name: 'Bob')
+
+# for example we have scope:
+# scope :admins, -> { where(role: 'admin') } 
+User.admins.order(:id).unwhere
+#  => User.order(:id)
+
 ```
 
 It works with AR relations, scopes, etc, it's just removes where conditions. It returns relation too and you can add new `where` relations after it.
