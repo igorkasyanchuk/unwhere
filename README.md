@@ -1,6 +1,6 @@
 # Unwhere
 
-Clear all `where` conditions from AR relation. Could be useful if you are doing filtering.
+Clear all `where` conditions from AR relation. Could be useful if you are doing filtering and you need to use original scope.
 
 ## Usage
 
