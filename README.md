@@ -7,8 +7,12 @@ Clear all `where` conditions from AR relation. Could be useful if you are doing 
 Samples of usage:
 
 ```ruby
-User.where(first_name: 'John').order(:id).unwhere == User.order(:id)
-User.where(first_name: 'John').order(:id).unwhere.where(first_name: 'Bob') == User.order(:id).where(first_name: 'Bob')
+User.where(first_name: 'John').order(:id).unwhere 
+#  => User.order(:id)
+
+
+User.where(first_name: 'John').order(:id).unwhere.where(first_name: 'Bob') 
+#  => User.order(:id).where(first_name: 'Bob')
 ```
 
 It works with AR relations, it just removes where conditions. It returns relation too and you can add new `where` relations after it.
