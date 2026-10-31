@@ -1,5 +1,12 @@
 # Unwhere
 
+<a href="https://igorkasyanchuk.com/apps?ref=unwhere">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://igorkasyanchuk.com/versions/v1/banner-dark.svg">
+    <img src="https://igorkasyanchuk.com/versions/v1/banner-light.svg" width="720" alt="More tools from the author: Laki, DiffNotes and more. See all projects at igorkasyanchuk.com/apps">
+  </picture>
+</a>
+
 Clear all `where` conditions from AR relation. Could be useful if you are doing filtering and you need to use original scope.
 
 ## Usage
@@ -44,4 +51,4 @@ You are welcome to contribute.
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 [<img src="https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/more_gems.png?raw=true"
-/>](https://www.railsjazz.com/?utm_source=github&utm_medium=bottom&utm_campaign=unwhere)
+/>](https://www.igorkasyanchuk.com/)
